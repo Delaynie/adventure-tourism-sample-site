@@ -5,10 +5,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.mobile h2 {
-  display: hidden;
-}
-
 .container {
     display: flex;
 }
@@ -235,6 +231,10 @@ header h1 {
       color: rgb(209, 209, 209);
     }
 
+    .mobile {
+      display: none;
+    }
+
   /* ------ media queries -------- */
 
 @media (min-width: 1800px) {
@@ -307,7 +307,7 @@ header h1 {
 
   @media (max-width: 500px) {
     .desktop {
-      display: hidden;
+      display: none;
     }
     .mobile {
       display: block;
