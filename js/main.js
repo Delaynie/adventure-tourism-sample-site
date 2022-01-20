@@ -1,4 +1,4 @@
 // activate flip card (for mobile)
 function activateFlip() {
-    document.getElementById("flippety").style.transform = "rotateY(180deg)";
+    document.getElementsByClassName("flip-card-inner").style.transform = "rotateY(180deg)";
 }
