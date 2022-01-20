@@ -40,6 +40,7 @@ body {
 /* header classes and elements */
 
 header {
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -320,5 +321,8 @@ header h1 {
     }
     .mobile {
       display: block;
+    }
+    .sidebar {
+      display: none;
     }
   }

@@ -57,6 +57,9 @@
   .flip-card-back h1 {
     margin-bottom: 3%;
   }
+    .flip-card-back p {
+      padding-bottOM: 3%;
+    }
 
   .wrapper {
     flex-wrap: wrap;
