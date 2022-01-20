@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.mobile h2 {
+  display: hidden;
+}
+
 .container {
     display: flex;
 }
@@ -299,4 +303,13 @@ header h1 {
       padding-bottom: 5%;
     }
 
+  }
+
+  @media (max-width: 500px) {
+    .desktop {
+      display: hidden;
+    }
+    .mobile {
+      display: block;
+    }
   }
