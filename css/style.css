@@ -275,6 +275,7 @@ header h1 {
 
 /* The side navigation menu */
 .sidenav {
+  display: inline-block;
   height: 100%;
   width: 0;
   position: fixed;
