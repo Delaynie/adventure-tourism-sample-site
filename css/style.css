@@ -285,7 +285,7 @@ header h1 {
   transition: 0.5s;
   top: 0;
   right: 0;
-  background-color: #2d2d2d;
+  background-color: #070707d2;
   cursor: pointer;
   text-align: center;
 }
@@ -303,7 +303,7 @@ header h1 {
   position: fixed;
   top: 0;
   right: 2%;
-  font-size: 36px;
+  font-size: 40px;
   display: inline-block;
   padding: 2%;
   background: none;
@@ -316,17 +316,16 @@ header h1 {
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  /*padding: 8px 8px 8px 32px;*/
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  font-size: 26px;
+  color: #e2e2e2;
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #d3d3d3;
 }
-/* end of mobile nav menu styling */
 
 }
