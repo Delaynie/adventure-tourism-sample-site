@@ -82,66 +82,9 @@ header h1 {
         color: #f1f1f1;
     }
 
-    /* mobile menu 
-    /* DROPDOWN MENU FOR MOBILE */
-
-/* The side navigation menu 
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 2;
-  overflow-x: hidden;
-  padding-top: 80px;
-  transition: 0.5s;
-  top: 0;
-  right: 0;
-  background-color: #2d2d2d;
-  cursor: pointer;
-  text-align: center;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-.dropbtn {
-  opacity: 1;
-  position: fixed;
-  top: 0;
-  right: 2%;
-  font-size: 22px;
-  display: inline-block;
-  padding: 1%;
-  background: transparent;
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-  z-index: 2;
-}
-
-.trigger-menu img:hover {
-  transform: rotate(45deg);
-  transition: transform 0.4s;
-}
-
-/* The navigation menu links 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}*/
+    .sidenav, .dropbtn {
+      display: none;
+    }
   
   .row {
       flex-direction: row;
@@ -278,6 +221,7 @@ header h1 {
   .footer p {
     font-size: 20px;
   }
+   
 }
 
 @media screen and (max-height: 450px) {
@@ -325,4 +269,63 @@ header h1 {
     .sidebar {
       display: none;
     }
-  }
+
+    /* mobile menu 
+    /* DROPDOWN MENU FOR MOBILE */
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  overflow-x: hidden;
+  padding-top: 80px;
+  transition: 0.5s;
+  top: 0;
+  right: 0;
+  background-color: #2d2d2d;
+  cursor: pointer;
+  text-align: center;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.dropbtn {
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  right: 2%;
+  font-size: 28px;
+  display: inline-block;
+  padding: 1%;
+  background: none;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 2;
+  border: none;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+/* end of mobile nav menu styling */
+
+}
