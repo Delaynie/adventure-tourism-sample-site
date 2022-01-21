@@ -269,6 +269,21 @@ header h1 {
     .sidebar {
       display: none;
     }
+    html {
+      margin: 0;
+    }
+
+    .header {
+      margin: 0;
+    }
+
+    .section {
+      margin: 0;
+    }
+
+    .layout-2 {
+      margin: 0;
+    }
 
     /* mobile menu 
     /* DROPDOWN MENU FOR MOBILE */
