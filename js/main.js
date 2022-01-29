@@ -2,11 +2,13 @@
 // activate flip card (for mobile)
 function activateFlip() {
     let inner = document.getElementsByClassName("flip-card-inner");
-    if(inner != 'active'){
       inner.toggleClass('active');
-    } else {
-    inner.toggleClass('inactive'); 
-    }
+      if(inner == 'active'){
+        inner.style.display = "none";
+      } else {
+        inner.toggleClass('active');
+      }
+    
 }
 /* Open the sidenav */
 function openNav() {
