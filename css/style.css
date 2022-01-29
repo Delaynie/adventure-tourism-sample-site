@@ -177,6 +177,7 @@ header h1 {
     color: rgb(245, 245, 245);
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     border-top: 1px solid rgb(245, 245, 245);
     margin: 2% 10% 2% 10%;
     padding-top: 2%;
