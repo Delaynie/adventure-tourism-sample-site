@@ -11,11 +11,11 @@ function activateFlip() {
 /* Open the sidenav */
 function openNav() {
     document.getElementById("mySidenav").style.width = "100%";
-    document.getElementById("button").innerHTML = "";
+    document.getElementById("button").style.color = "transparent";
   }
   
   /* Close/hide the sidenav */
   function closeNav() {
-    document.getElementById("button").innerHTML = "|||";
+    document.getElementById("button").style.color = "white";
     document.getElementById("mySidenav").style.width = "0";
   }
