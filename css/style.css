@@ -260,6 +260,10 @@ header h1 {
   }
 
   @media (max-width: 500px) {
+    section {
+      width: 100%;
+      position: relative;
+    }
     .desktop {
       display: none;
     }
@@ -274,10 +278,6 @@ header h1 {
     }
 
     .header {
-      margin: 0;
-    }
-
-    .section {
       margin: 0;
     }
 
@@ -335,6 +335,7 @@ header h1 {
   cursor: pointer;
   z-index: 2;
   border: none;
+  rotate: 180deg;
 }
 
 /* The navigation menu links */
