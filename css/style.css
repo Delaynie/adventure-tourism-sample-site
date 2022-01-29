@@ -343,9 +343,6 @@ header h1 {
   border: none;
   rotate: 90deg;
 }
-.dropbtn:hover {
-  display: none;
-}
 
 /* The navigation menu links */
 .sidenav a {
