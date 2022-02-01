@@ -421,6 +421,9 @@ header h1 {
       color: #e2e2e2;
       text-align: left;
     }
+    .header i {
+      padding: 5px;
+    }
 
     .banner a {
       width: 25%;
@@ -448,10 +451,9 @@ header h1 {
         max-width: 80%;
       }
       form .button-solid {
-        background-color: #c54800;
         color: #e2e2e2;
         border: none;
-        max-width: 80%;
+        width: 80%;
       }
 
     /* mobile menu */
