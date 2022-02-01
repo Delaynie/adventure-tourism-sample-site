@@ -74,15 +74,15 @@
 
   @media (max-width: 500px) {
     .flip-card {
-      height: 150px;
-      width: 150px;
-      margin: 0.8%;
+      height: 175px;
+      width: 175px;
+      margin: 10px;
     }
 
     .flip-card-front, .flip-card-back {
-      height: 150px;
-      width: 150px;
-      margin: 0.8%;
+      height: 175px;
+      width: 175px;
+      margin: 10px;
     }
 
   }
