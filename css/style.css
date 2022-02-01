@@ -252,7 +252,6 @@ header h1 {
   textarea:focus {
     outline: none;
     border: 2px solid #e67e22;
-    /* featured color */
   }
   
   textarea {
@@ -279,9 +278,6 @@ header h1 {
     padding: 0.8em;
     border-radius: 0;
     font-size: 1rem;
-  }
-  form .button {
-    width:100%;
   }
 
   .footer {
@@ -411,8 +407,11 @@ header h1 {
     }
 
       .email-signup input {
-        width: 100%;
-        max-width: 100%;
+        width: 80%;
+        max-width: 80%;
+      }
+      input[type="submit"] {
+        background-color: #ce6a14;
       }
 
     /* mobile menu 
