@@ -76,13 +76,13 @@
     .flip-card {
       height: 150px;
       width: 150px;
-      margin: 0.5%;
+      margin: 0.8%;
     }
 
     .flip-card-front, .flip-card-back {
       height: 150px;
       width: 150px;
-      margin: 0.5%;
+      margin: 0.8%;
     }
 
   }
