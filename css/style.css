@@ -237,6 +237,7 @@ header h1 {
     width: 40%;
     text-align: center;
     margin: auto;
+    cursor: pointer;
   }
 
   .form {
@@ -420,6 +421,10 @@ header h1 {
       text-align: left;
     }
 
+    .banner a {
+      width: 25%;
+    }
+
     .layout-2 {
       margin: 0;
     }
@@ -442,9 +447,8 @@ header h1 {
         max-width: 80%;
       }
       input[type="submit"] {
-        background-color: #2b2b2b;
+        background-color: #c54800;
         color: #e2e2e2;
-        shape-rendering: crispEdges;
         border: none;
       }
 
