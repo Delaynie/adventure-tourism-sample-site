@@ -38,6 +38,7 @@
   .button-solid:hover {
     background-color: #fd9335;
     border-color: #fd9335;
+    color: white;
   }
   .button.inverted {   /* this is for a button on a dark background */
     border: 2px solid white;
@@ -265,7 +266,7 @@ header h1 {
     min-height: 7em;
   }
   
-  input[type="submit"] {
+  form a {
     width: auto;
     display: block;
   }
@@ -274,7 +275,7 @@ header h1 {
     padding: 5px;
   }
   
-  .email-signup input {
+  .email-signup input, .button-solid {
     width: 30%;
     display: inline-block;
     max-width: 250px;
@@ -446,10 +447,11 @@ header h1 {
         width: 80%;
         max-width: 80%;
       }
-      input[type="submit"] {
+      form .button-solid {
         background-color: #c54800;
         color: #e2e2e2;
         border: none;
+        max-width: 80%;
       }
 
     /* mobile menu */
