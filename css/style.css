@@ -461,6 +461,16 @@ header h1 {
         border: none;
         width: 100%;
       }
+      form {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+      }
+      form p {
+        padding-left: 8px;
+        padding-right: 8px;
+      }
 
     /* mobile menu */
 
