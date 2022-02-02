@@ -52,7 +52,7 @@
   }
 
 body {
-    background-color: rgb(7, 87, 87);
+    background-color: #142b19;/*rgb(7, 87, 87);*/
     /*background-image: url(/images/thomas-kelley-unsplash.jpg);*/
     background-repeat: no-repeat;
     background-position: top;
@@ -121,10 +121,11 @@ header h1 {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: rgb(3, 3, 3);
     overflow-x: hidden;
     padding-top: 35px;
     padding-bottom: 25px;
+    /*border-right: 1px solid rgb(68, 71, 69);*/
     /*padding-left: 15px;*/
   }
   
