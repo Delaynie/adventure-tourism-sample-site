@@ -328,6 +328,22 @@ header h1 {
     text-align: right;
   }
 
+    /* SCROLL ANIMATION */
+    .aos {
+      position: relative;
+      top: 20px;
+      opacity: 0;
+      transition: 0.5s ease-out; 
+  }
+  
+  .aos.active {
+      top: 0;
+      opacity: 1;
+      background-color: transparent;
+      transform: translateY(-20px);
+      transition: .8s ease-in;
+  }
+
   /* ------ media queries -------- */
 
 @media (min-width: 1800px) {
@@ -425,14 +441,12 @@ header h1 {
 
     .header {
       margin: 0;
-      background-color: #4e5a52;
-      background-color: #8fb597;
+      background-color: #0d0d2c;
       color: #e2e2e2;
-      color: #171817;
       text-align: left;
     }
     .header i {
-      padding: 5px 8px;
+      padding: 10px 5px 5px 10px;
     }
 
     .banner a {
