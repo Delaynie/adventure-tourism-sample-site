@@ -52,8 +52,8 @@
   }
 
 body {
-    background-color: rgb(2, 0, 20);
-    background-image: url(/images/thomas-kelley-unsplash.jpg);
+    background-color: rgb(7, 87, 87);
+    /*background-image: url(/images/thomas-kelley-unsplash.jpg);*/
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
