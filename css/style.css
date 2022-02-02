@@ -331,13 +331,13 @@ header h1 {
     /* SCROLL ANIMATION */
     .aos {
       position: relative;
-      top: 20px;
+      top: 50px;
       opacity: 0;
-      transition: 0.5s ease-out; 
+      transition: 1s ease-out; 
   }
   
   .aos.active {
-      top: 0;
+      top: 10px;
       opacity: 1;
       background-color: transparent;
       transform: translateY(-20px);
