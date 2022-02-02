@@ -175,12 +175,15 @@ header h1 {
     margin-bottom: 3%;
   }
 
-  .layout h2 {
+  .layout h2, .layout h3 {
     justify-content: center;
       align-items: center;
       color: rgb(235, 235, 235);
       text-align: center;
       font-size: 28px;
+  }
+  .layout h3 {
+    font-size: 24px;
   }
   .layout p {
       justify-content: center;
@@ -441,7 +444,7 @@ header h1 {
 
     .header {
       margin: 0;
-      background-color: #0d0d2c;
+      background-color: #14141b;
       color: #e2e2e2;
       text-align: left;
     }
