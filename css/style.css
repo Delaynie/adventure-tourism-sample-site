@@ -414,6 +414,10 @@ header h1 {
       width: 80%;
       margin: auto;
     }
+    .contact {
+      justify-content: center;
+      align-items: center;
+    }
     .row {
       flex-direction: column;
     }
