@@ -410,6 +410,10 @@ header h1 {
       background-attachment: fixed;
     }
 
+    .half {
+      width: 80%;
+      margin: auto;
+    }
     .row {
       flex-direction: column;
     }
