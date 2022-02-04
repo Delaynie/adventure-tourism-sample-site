@@ -27,7 +27,7 @@
   p {
    margin-bottom: 0.8rem;
   }
-  .button-solid {
+  .button-solid, .btn-solid {
     text-decoration: none;
     color: white;
     cursor: pointer;
@@ -35,7 +35,7 @@
     border-color: #e67e22;
   }
 
-  .button-solid:hover {
+  .button-solid:hover, .btn-solid:hover {
     background-color: #fd9335;
     border-color: #fd9335;
     color: white;
@@ -253,7 +253,7 @@ header h1 {
     padding-bottom: 5%;
   }
 
-  input {
+  input, textarea {
     border: 2px solid rgb(200, 200, 205);
     padding: 0.8em;
     display: block;
@@ -291,6 +291,23 @@ header h1 {
     padding: 0.8em;
     border-radius: 0;
     font-size: 1rem;
+  }
+  .contact .btn-solid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+    font-size: 1rem;
+    margin: auto;
+  }
+
+  .contact {
+    color: #d3d3d3;
+  }
+
+  .half {
+    width: 50%;
   }
 
   .footer {
