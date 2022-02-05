@@ -569,6 +569,10 @@ header h1 {
         align-items: center;
       }
 
+      .banner {
+        background-position: top;
+      }
+
     /* mobile menu */
 
 /* The side navigation menu */
