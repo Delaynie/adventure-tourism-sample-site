@@ -399,9 +399,6 @@ header h1 {
   }
 
   @media (max-width: 970px) {
-    body {
-      background-attachment: fixed;
-    }
 
     .half {
       width: 80%;
@@ -470,14 +467,14 @@ header h1 {
     }
 
     .banner a {
-      width: 25%;
+      width: 30%;
     }
 
     .layout-2 {
       margin: 0;
     }
     .layout-2 img {
-      height: 400px;
+      height: 500px;
     }
 
     .overlay {
