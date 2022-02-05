@@ -412,7 +412,6 @@ header h1 {
 
     .half {
       width: 80%;
-      margin: auto;
     }
     .contact {
       justify-content: center;
@@ -515,6 +514,13 @@ header h1 {
       .form p {
         padding-left: 8px;
         padding-right: 8px;
+      }
+
+      .contact {
+        text-align: center;
+      }
+      .contact form {
+        margin-right: 6%;
       }
 
     /* mobile menu */
