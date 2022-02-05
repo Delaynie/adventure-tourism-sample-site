@@ -341,6 +341,58 @@ header h1 {
     text-align: right;
   }
 
+    /* HEADER ANIMATION */
+    .banner {
+      position:relative;
+      overflow:hidden;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      align-content: flex-start;
+      height:100vh;
+      min-height:400px;
+      max-height:500px;
+      min-width:300px;
+      color: #4d4b4b;
+    }
+  
+    .banner:after{
+      content:"";
+      width:100%;
+      height:100%;
+      position:absolute;
+      bottom:0;
+      left:0;
+      z-index:-1;
+     background: linear-gradient(to bottom, rgba(196, 196, 196, 0) 30%,rgb(27, 32, 48) 100%);
+    }
+    .banner:before{
+      content:"";
+      width:100%;
+      height:200%;
+      position:absolute;
+      top:0;
+      left:0;
+        -webkit-backface-visibility: hidden;
+        -webkit-transform: translateZ(0); backface-visibility: hidden;
+      scale:(1.0, 1.0);
+        transform: translateZ(0);
+      background: url(/images/patrick-fore-unsplash.jpg) 50% 0 no-repeat;
+      /*background-size:100%;*/
+      background-attachment:fixed;
+      background-position: bottom;
+      animation: grow 360s  linear 1ms infinite;
+      transition:all .2s ease-in-out;
+      z-index:-2
+    }
+  
+  
+  @keyframes grow{
+      0% { transform: scale(1) translateY(0px)}
+      30% { transform: scale(1.2) translateY(-100px)}
+    }
+
     /* SCROLL ANIMATION */
     .aos {
       position: relative;
