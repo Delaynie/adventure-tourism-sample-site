@@ -383,14 +383,14 @@ header h1 {
       background-attachment:fixed;
       background-position: bottom;
       animation: grow 360s  linear 1ms infinite;
-      transition:all .2s ease-in-out;
+      transition:all .1ms ease-in-out;
       z-index:-2
     }
   
   
   @keyframes grow{
       0% { transform: scale(1) translateY(0px)}
-      30% { transform: scale(1.2) translateY(-100px)}
+      20% { transform: scale(1.2) translateY(-100px)}
     }
 
     /* SCROLL ANIMATION */
