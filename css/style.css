@@ -87,18 +87,11 @@ header h1 {
     font-size: 36px;
 }
 
-.banner {
-  background-image: url('/images/patrick-fore-unsplash.jpg');
-  background-size: cover;
-  background-position: bottom;
-  min-height: 50vh;
-}
 .banner a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 15%;
-  margin-left: 2%;
+  width: 80%;
 }
 
 .big-bold {
@@ -107,7 +100,7 @@ header h1 {
 }
 
 .highlight {
-  background-color: rgba(240, 240, 245, 0.692);
+  background-color: rgba(44, 44, 61, 0.692);
   display: inline-block;
   padding: 0.5rem;
   margin: 2px;
@@ -520,7 +513,10 @@ header h1 {
         text-align: center;
       }
       .contact form {
-        margin-right: 6%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
       }
 
     /* mobile menu */
