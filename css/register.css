@@ -61,17 +61,21 @@
     opacity: 1;
   } */
 
-  form {
-      width: 90%;
-      margin-left: 6%;
+  #myForm {
+    display: none;
+    width: 75%;
+    margin: auto;
+    text-align: center;
   }
+    #myForm h3 {
+      margin-top: 18px;
+      margin-bottom: 15px;
+    }
 
-  .rows {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    margin: 16px -16px;
+  form {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
   }
   
   .col-25 {
@@ -98,21 +102,24 @@
   .container2 {
     background-color: #f2f2f2;
     padding: 5px 20px 15px 20px;
-    border: 1px solid lightgrey;
+    border: 2px solid orange;
     border-radius: 3px;
   }
   
   input[type=text] {
-    width: 80%;
+    width: 60%;
     margin-bottom: 20px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    margin: auto;
   }
   
  label {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
     display: block;
+    text-align: center;
   }
   
   .icon-container {
@@ -143,7 +150,7 @@
   .btns.cancel {
     background-color: rgb(231, 1, 1);
     text-align: center;
-    margin-top: 8px;
+    margin-top: 12px;
   }
     .btns.cancel:hover {
       background-color: rgb(211, 0, 0);
@@ -153,10 +160,11 @@
     float: right;
     color: grey;
   }
-  
+
+
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
   @media (max-width: 970px) {
-    .rows {
+    .column {
       flex-direction: column-reverse;
     }
     .col-25 {
