@@ -474,7 +474,7 @@ header h1 {
     
     .layout-2 img {
       width: auto;
-      height: 40vh;
+      height: 60vh;
     }
     .layout-2 {
       margin-top: 3%;
@@ -572,6 +572,7 @@ header h1 {
 
       /* HEADER ANIMATION */
     .banner {
+      background-image: url(/images/patrick-fore-unsplash.jpg);
       position:relative;
       overflow:hidden;
       display:flex;
@@ -608,7 +609,7 @@ header h1 {
       scale:(1.0, 1.0);
         transform: translateZ(0);
       background: url(/images/patrick-fore-unsplash.jpg) 50% 0 no-repeat;
-      /*background-size:100%;*/
+      background-size:100%;
       background-attachment: scroll;
       background-position: bottom;
       animation: grow 360s  linear 1ms infinite;
