@@ -569,16 +569,17 @@ header h1 {
       /* HEADER ANIMATION */
 
       .banner a {
-        display: none;
+        color: #1a1a20;
+        border-color: #1a1a20;
       }
   
       .banner {
-        background: url(/images/patrick-fore-unsplash.jpg) 50% 0 no-repeat;
+        background: url(/images/patrick-fore-unsplash.jpg) 80% 0 no-repeat;
         background-position: bottom;
         max-height: auto;
       }
         
-    .selectorGroup {
+    .slideUp {
         animation: slideUp500 2.5s forwards;
     }
     @keyframes slideUp500 {
