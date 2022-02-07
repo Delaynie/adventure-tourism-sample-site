@@ -574,6 +574,7 @@ header h1 {
   
       .banner {
         background: url(/images/patrick-fore-unsplash.jpg) 50% 0 no-repeat;
+        background-position: center;
       }
 
     /* mobile menu */
