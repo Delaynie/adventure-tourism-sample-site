@@ -40,20 +40,19 @@
     border-color: #fd9335;
     color: white;
   }
-  .button.inverted {   /* this is for a button on a dark background */
+  .button.inverted, .btn {   /* this is for a button on a dark background */
     border: 2px solid white;
     color: white;
     padding: 3px 8px 3px 8px;
   }
 
-  .button.inverted:hover {
+  .button.inverted:hover, .btn {
     color: #eeeeee;
     border-color: #eeeeee;
   }
 
 body {
     background-color: #142b19;/*rgb(7, 87, 87);*/
-    /*background-image: url(/images/thomas-kelley-unsplash.jpg);*/
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -451,6 +450,26 @@ header h1 {
 
   @media (max-width: 970px) {
 
+    /* HEADER ANIMATION */
+
+    .btn {
+      background-color: rgba(44, 44, 61, 0.521);
+    }
+
+    .banner {
+      background: url(/images/patrick-fore-unsplash.jpg) 80% 0 no-repeat;
+      background-position: bottom;
+      max-height: auto;
+    }
+      
+  .slideUp {
+      animation: slideUp970 2.5s forwards;
+  }
+  @keyframes slideUp970 {
+    0%    { transform: translate3d(0,970px,0); }
+    100%  { transform: translate3d(0,0,0); }
+}
+
     .desktop {
       display: none;
     }
@@ -566,18 +585,7 @@ header h1 {
         align-items: center;
       }
 
-      /* HEADER ANIMATION */
-
-      .banner a {
-        color: #1a1a20;
-        border-color: #1a1a20;
-      }
-  
-      .banner {
-        background: url(/images/patrick-fore-unsplash.jpg) 80% 0 no-repeat;
-        background-position: bottom;
-        max-height: auto;
-      }
+      /* Banner ANIMATION */
         
     .slideUp {
         animation: slideUp500 2.5s forwards;
