@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/slides.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/register.css">
 </head>
 <body>
@@ -39,12 +39,14 @@
         <h3 class="mobile left"><i class="fas fa-hiking"> Adventure Tours</i></h3>
     </header>
 
-    <div class="row" id="myForm"> <!--form-popup" id="myForm"-->
+    <input class="btns" value="Registration Form" onclick="openForm()">
+
+    <div class="rows" id="myForm"> <!--form-popup" id="myForm"-->
       <div class="col-75">
         <div class="container2">
           <form action="/action_page.php"> <!--class="form-container"-->
     
-            <div class="row">
+            <div class="rows">
               <div class="col-50">
                 <h3>Billing Address</h3>
                 <label for="fname"><i class="fa fa-user"></i> Full Name</label>
@@ -56,7 +58,7 @@
                 <label for="city"><i class="fa fa-institution"></i> City</label>
                 <input type="text" id="city" name="city" placeholder="New York">
     
-                <div class="row">
+                
                   <div class="col-50">
                     <label for="state">State</label>
                     <input type="text" id="state" name="state" placeholder="NY">
@@ -94,10 +96,13 @@
                     <input type="text" id="cvv" name="cvv" placeholder="352">
                   </div>
                 </div>
+                <div class="row">
+                  <input type="submit" value="Book Now" class="btns">
+                  <input value="Cancel" onclick="closeForm()" class="btns cancel">
+                </div>
               </div>
-    
+              
             </div>
-            <input type="submit" value="Book Now" class="btn">
             <!--<button type="button" class="btn cancel" onclick="closeForm()">Close</button>-->
           </form>
         </div>
