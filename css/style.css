@@ -567,18 +567,19 @@ header h1 {
       }
 
       /* HEADER ANIMATION */
+
+      .banner a {
+        display: none;
+      }
   
-      #selectorGroup {
+      .selectorGroup {
         background: url(/images/patrick-fore-unsplash.jpg) 50% 0 no-repeat;
         background-position: bottom;
         max-height: auto;
       }
-        .banner a {
-          display: none;
-        }
         
-    #selectorGroup {
-        animation: slideUp500 1s forwards;
+    .selectorGroup {
+        animation: slideUp500 2s forwards;
     }
     @keyframes slideUp500 {
       0%    { transform: translate3d(0,500px,0); }
