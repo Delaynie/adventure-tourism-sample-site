@@ -571,19 +571,23 @@ header h1 {
       }
 
       /* HEADER ANIMATION */
-      .banner {
-        z-index: -2;
+      .banner:before {
+        display: none;
+      }
+      .banner:after {
+        display: none;
       }
     .banner-mobile {
       background-image: url(/images/patrick-fore-unsplash.jpg);
-      position:absolute;
+      position:relative;
       overflow:hidden;
       display:flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: flex-start;
       align-content: flex-start;
-      height:100vh;
+      width: 100%;
+      height:auto;
       color: #4d4b4b;
       z-index: 1;
     }
