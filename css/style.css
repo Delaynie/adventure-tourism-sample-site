@@ -522,10 +522,6 @@ header h1 {
       padding: 10px 5px 5px 10px;
     }
 
-    .banner a {
-      width: 50%;
-    }
-
     .layout-2 {
       margin: 0;
     }
@@ -574,8 +570,11 @@ header h1 {
   
       .banner {
         background: url(/images/patrick-fore-unsplash.jpg) 50% 0 no-repeat;
-        background-position: center;
+        background-position: bottom;
       }
+        .banner a {
+          display: none;
+        }
 
     /* mobile menu */
 
