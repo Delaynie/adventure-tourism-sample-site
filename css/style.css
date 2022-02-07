@@ -581,9 +581,6 @@ header h1 {
       align-items: flex-start;
       align-content: flex-start;
       height:100vh;
-      min-height:400px;
-      max-height:500px;
-      min-width:300px;
       color: #4d4b4b;
     }
   
@@ -612,8 +609,8 @@ header h1 {
       background-size:100%;
       background-attachment: scroll;
       background-position: bottom;
-      animation: grow 360s  linear 1ms infinite;
-      transition:all .1ms ease-in-out;
+      animation: grow 360s  linear 10ms infinite;
+      transition:all .10ms ease-in-out;
       z-index:-2
     }
   
