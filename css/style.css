@@ -266,8 +266,8 @@ header h1 {
   
   form a {
     width: auto;
-    display: block;
   }
+  
   
   form [class*=col-] {
     padding: 5px;
@@ -292,7 +292,6 @@ header h1 {
     width: 100%;
     padding: 1em;
     font-size: 1rem;
-    margin: auto;
   }
 
   .contact {
@@ -522,7 +521,7 @@ header h1 {
     }
 
     .banner a {
-      width: 30%;
+      width: 50%;
     }
 
     .layout-2 {
@@ -570,7 +569,7 @@ header h1 {
       }
 
       .banner {
-        background-position: top;
+        background-position: center;
       }
 
     /* mobile menu */
