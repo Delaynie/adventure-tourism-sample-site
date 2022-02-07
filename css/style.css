@@ -605,7 +605,7 @@ header h1 {
         -webkit-transform: translateZ(0); backface-visibility: hidden;
       scale:(1.0, 1.0);
         transform: translateZ(0);
-      background: url(/images/patrick-fore-unsplash.jpg) 50% 0 no-repeat;
+      background-image: url(/images/patrick-fore-unsplash.jpg);
       background-size:100%;
       background-attachment: scroll;
       background-position: bottom;
