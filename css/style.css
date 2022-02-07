@@ -451,6 +451,13 @@ header h1 {
 
   @media (max-width: 970px) {
 
+    .desktop {
+      display: none;
+    }
+    .mobile {
+      display: block;
+    }
+
     .half {
       width: 80%;
     }
@@ -467,7 +474,7 @@ header h1 {
     
     .layout-2 img {
       width: auto;
-      height: 80vh;
+      height: 40vh;
     }
     .layout-2 {
       margin-top: 3%;
@@ -497,12 +504,7 @@ header h1 {
       width: 100%;
       position: relative;
     }
-    .desktop {
-      display: none;
-    }
-    .mobile {
-      display: block;
-    }
+
     .sidebar {
       display: none;
     }
@@ -568,8 +570,9 @@ header h1 {
         align-items: center;
       }
 
-      .banner {
+      .banner:before {
         background-position: center;
+        background-size: 100%;
       }
 
     /* mobile menu */
