@@ -1,69 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+.containerSlideshow {
+  position: relative;
+  
+}
 
 .mySlides {
-    display: none;
-}
-.img {
-    max-width: 500px;
-    height: 300px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px 10px rgba(27, 27, 27, 0.349);
-    background-image: url('images/patrick-fore-unsplash.jpg');
-    background-size: cover;
-    background-position: center;
+  display: none;
 }
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.cursor {
+  cursor: pointer;
 }
 
-/* Number text (1/3 etc) */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 8px 12px;
+  padding: 12px 12px;
   position: absolute;
   top: 0;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 1s ease-in-out;
+.captionContainer {
+  text-align: center;
+  background-color: rgb(23, 29, 23);
+  padding: 16px 16px;
+  color: white;
 }
 
-.active {
-  background-color: #8d8c8c;
+.rowSlideshow:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 3s ease-in-out;
-  animation-name: fade;
-  animation-duration: 3s;
+/* Six columns side by side */
+.columnSlideshow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 16.64%;
+  float: right;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+.active,
+.demo:hover {
+  opacity: 1;
 }
 
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+/* image styling */
+
+.mySlides img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
 }
