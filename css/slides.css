@@ -1,10 +1,9 @@
-* {
-  box-sizing: border-box;
-}
+
 
 .containerSlideshow {
   position: relative;
-  
+  width: 50%;
+  margin:auto;
 }
 
 .mySlides {
@@ -84,10 +83,20 @@
 /* image styling */
 
 .mySlides img {
-  width: 100%;
+  width: 500px;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+  .mySlides img {
+    width: 100%;
+  }
+  .containerSlideshow {
+    width: 100%;
+    margin: 0;
+  }
 }
