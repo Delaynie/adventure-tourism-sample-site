@@ -2,7 +2,7 @@
 
 .containerSlideshow {
   position: relative;
-  width: 50%;
+  width: 50.5%;
   margin:auto;
 }
 
@@ -55,6 +55,14 @@
   color: white;
 }
 
+.rowSlideshow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  margin:auto;
+}
+
 .rowSlideshow:after {
   content: "";
   display: table;
@@ -63,9 +71,6 @@
 
 /* Six columns side by side */
 .columnSlideshow {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 16.64%;
   float: right;
 }
