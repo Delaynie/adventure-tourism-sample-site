@@ -220,6 +220,14 @@ header h1 {
       text-align: center;
       text-transform: capitalize;
   }
+  
+  .layout-2 ul {
+    margin: auto;
+    color: rgb(235, 235, 235);
+    padding-left: 13%;
+    padding-right: 5%;
+  }
+
   .layout-2 p {
       justify-content: center;
       align-items: center;
@@ -337,6 +345,14 @@ header h1 {
     flex-direction: column;
     color: white;
     text-align: right;
+  }
+
+  .profile-small {
+    margin-bottom: 2%;
+    max-width: 6rem;
+    width: 100%;
+    border-radius: 100%;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
   }
 
     /* HEADER ANIMATION */
