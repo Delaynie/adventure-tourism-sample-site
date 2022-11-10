@@ -1,4 +1,6 @@
 .banner {
+    background: url(/images/main/patrick-fore-unsplash.jpg);
+    background-position: bottom;
     position:relative;
     overflow:hidden;
     display:flex;
@@ -35,7 +37,7 @@
     scale:(1.0, 1.0);
       transform: translateZ(0);
     background: url(/images/patrick-fore-unsplash.jpg) 50% 0 no-repeat;
-    /*background-size:100%;*/
+    background-size:100%;
     background-attachment:fixed;
     background-position: bottom;
     animation: grow 360s  linear 1ms infinite;

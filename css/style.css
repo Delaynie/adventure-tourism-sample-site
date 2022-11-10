@@ -358,7 +358,7 @@ header h1 {
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
   }
 
-    /* HEADER ANIMATION */
+    /* HEADER ANIMATION *//*
     .banner {
       position:relative;
       overflow:hidden;
@@ -372,17 +372,9 @@ header h1 {
       max-height:500px;
       min-width:300px;
       color: #4d4b4b;
-    }
-  
-    .banner:after{
-      content:"";
-      width:100%;
-      height:100%;
-      position:absolute;
-      bottom:0;
-      left:0;
-      z-index:-1;
-     background: linear-gradient(to bottom, rgba(196, 196, 196, 0) 30%,rgb(27, 32, 48) 100%);
+      background: url(/images/main/patrick-fore-unsplash.jpg);
+      background-position: bottom;
+      
     }
     .banner:before{
       content:"";
@@ -396,19 +388,32 @@ header h1 {
       scale:(1.0, 1.0);
         transform: translateZ(0);
       background: url(/images/main/patrick-fore-unsplash.jpg) 50% 0 no-repeat;
-      /*background-size:100%;*/
+      /*background-size:100%;*//*
       background-attachment:fixed;
       background-position: bottom;
       animation: grow 360s  linear 1ms infinite;
       transition:all .1ms ease-in-out;
       z-index:-2
     }
+    .banner:after{
+      content:"";
+      width:100%;
+      height:100%;
+      position:absolute;
+      bottom:0;
+      left:0;
+      z-index:-1;
+      background: url(/images/main/patrick-fore-unsplash.jpg) 50% 0 no-repeat;
+/*
+      background: linear-gradient(to bottom, rgba(184, 6, 6, 0) 30%,rgb(27, 32, 48) 100%);
+    }
+    
   
   
   @keyframes grow{
       0% { transform: scale(1) translateY(0px)}
       20% { transform: scale(1.2) translateY(-100px)}
-    }
+    }*/
 
     /* SCROLL ANIMATION */
     .aos {
@@ -604,7 +609,7 @@ header h1 {
         align-items: center;
       }
 
-      /* Banner ANIMATION */
+      /* slideup mobile */
         
     .slideUp {
         animation: slideUp500 2.5s forwards;
